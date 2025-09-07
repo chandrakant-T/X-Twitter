@@ -46,7 +46,7 @@ A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwi
 
  ### 5. Run The File
    ```
-    run index.html
+    start index.html
    ```
 
 ### 📜 License
