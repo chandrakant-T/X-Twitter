@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter.3.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="bg-black text-white">
+    <div class="flex md:container mx-auto">
+        <div class="first md:w-[70%]">
+            
+            <div class="sidebar flex md:items-end flex-col sticky top-0"> 
+                <div class="logo invert my-3 self-start mx-3 2xl:mx-16 md:mx-1 xl:mx-3 w-[50%]">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+                </div>
+                <ul class="flex flex-col  text-xl md:px-11 w-auto pb-2">
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl material-symbols-outlined">home</span> <span class="hidden md:block"> Home </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl  material-symbols-outlined"> search </span> <span class="hidden md:block"> Explore </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl  material-symbols-outlined"> notifications </span> <span class="hidden md:block"> Notification </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl  material-symbols-outlined"> mail </span> <span class="hidden md:block"> Messages </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl  material-symbols-outlined"> chat </span> <span class="hidden md:block"> Grok </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl material-symbols-outlined"> communities </span> <span class="hidden md:block"> Communities </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2"> <span class="!md:text-3xl  material-symbols-outlined"> Stars </span> <span class="hidden md:block"> Premium </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2 "> <span class="!md:text-3xl  material-symbols-outlined"> account_circle </span> <span class="hidden md:block"> Profile </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full px-7 py-2 "> <span class="!md:text-3xl  material-symbols-outlined"> more </span> <span class="hidden md:block">  More </span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-6 gap-3 md:w-fit">
+                        <div class="button w-full text-center my-3">
+                            <button class="bg-white hidden md:block px-20 text-xl py-2 text-black rounded-full cursor-pointer"> Post</button>
+                            <button class="bg-white md:hidden px-2 text-xl py-1 text-black rounded-full"> 
+                                <span class="material-symbols-outlined ">
+                                    edit
+                                </span>
+                            </button>
+                        </div>
+                    </li>  
+                </ul>
+                    <div class="flex w-1/2 mt-[10%] md:mr-30  2xl:mr-20 items-center ">
+                        <div class="flex items-center flex-col md:flex-row gap-3 hover:bg-gray-950 w-full px-4 py-4 rounded-full cursor-pointer">
+                            <div class="followcontentimg  md:w-11 w-13 m-auto md:m-0">
+                                <img src="https://pbs.twimg.com/profile_images/1464552313784262662/lynoVYqm_bigger.png" class="rounded-full" alt="">
+                            </div>
+                            <div class="followcontent  flex-col hidden md:flex">
+                                <span class="font-bold text-xl hidden md:block">Dude</span>
+                                <span class="text-base text-gray-500 hidden md:block">@Dude</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        
+        </div>
+
+
+
+        <div class="second  w-full border-[1px] border-x-gray-500 border-y-black">
+            <div class="top flex p-3  sticky top-0 backdrop-blur-2xl">
+                <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
+                <div class="left  w-1/2 flex justify-center font-bold text-lg cursor-pointer">For You</div>
+                <div class="right w-1/2 flex justify-center font-bold text-lg cursor-pointer">Following</div>
+                
+            </div>
+            <div class="h-[1px] w-full bg-gray-700 sticky top-[52px]"></div>
+            <div class="whatishapp flex gap-4 my-2">
+                <div class="img m-2 w-10">
+
+                    <img class="rounded-[50%]" src="https://pbs.twimg.com/profile_images/1464552313784262662/lynoVYqm_bigger.png" alt="">
+                </div>
+                <div class="w-full">
+
+                    <input id="What?" class="w-full text-xl h-7 my-2 bg-black text-white outline-none" type="text" placeholder="What is Happening?!">
+                    <div class="text-blue-400 flex items-center gap-1 w-full my-3">
+                        <span class="material-symbols-outlined !text-[20px]">globe</span>
+                        <span class="font-bold text-[12px]">Everyone Can Reply </span>
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-400 my-2"></div>
+                    <div class="blueicons flex gap-2 text-blue-400 mt-3 mb-3 cursor-pointer">
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26] hover:rounded-full">
+                            <span class="material-symbols-outlined !text-[20px] m-1.5 ">
+                                image
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined  !text-[20px] m-1.5">
+                                gif_box
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined  !text-[20px] m-1.5">
+                                chat
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined !text-[20px] m-1.5">
+                                checklist
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined  !text-[20px] m-1.5">
+                                mood
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined !text-[20px] m-1.5">
+                                schedule
+                            </span>
+                        </div>
+                        <div class="flex items-center justify-center hover:bg-[#0f1c26]  hover:rounded-full">
+                            <span class="material-symbols-outlined !text-[20px] m-1.5">
+                                edit_location
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="posts cursor-pointer">
+                <!-- With Post -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Elon Musk </span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@elonmusk . 18h</span>
+                            <div>Grok Code is now seeing more usage on OpenRouter than all others combined</div>
+                            <div class="posting m-4 ml-0">
+                                <img class="rounded-xl" src="https://pbs.twimg.com/media/Gz_dNE9awAA04pV?format=jpg&name=small" alt="">
+                            </div>
+                            <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">215K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">200K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">20K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">3K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Without Post-done -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/577541451/prakash_bigger.JPG" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Prakash Singh</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@singh_prakash . 15h</span>
+                            <div>People in India are angry - perhaps, very angry - with America, not so much because they have imposed 50% tariff, which we can absorb, but more so because of the unparliamentary, undignified, and abusive language which US spokesmen have used against India and its Prime Minister.</div>
+                           
+                            <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">300K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">310K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">30K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">300K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- With Post -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/1683501992314798080/xl1POYLw_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Developers</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-yellow-400">verified</span>
+                            <span class="text-gray-500">@developers . 6h</span>
+                            <div>
+                                Calling all developers! 📣
+                                Innovate with our real-time and historical data on the X API.
+                                Get started with Pro👇
+                            </div>
+                            <div class="posting m-4 ml-0">
+                                <img class="rounded-xl" src="https://pbs.twimg.com/media/GdAF3TNWoAAkZAp?format=png&name=small" alt="">
+                            </div>
+                            <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">40K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">215K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">10K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">50K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+               
+
+                <!-- Without Post-done -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/1871979460129353728/9lZqZPVo_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Venkatesh Alla</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@venkat_fin9 . Sep 4</span>
+                            <div>Dear Indians, be alert. <br>
+Many companies will now try to hike prices to offset the GST benefits instead of passing them on to you. Watch them closely and report to the Government. <br>
+We must stay vigilant against such companies that constantly look for ways to loot customers.</div>
+                           
+                            <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">40K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">35K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">15K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">10K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- With Post -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/1949012551863296000/1CYonzl6_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Ashwini Vaishnaw</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@AshwiniVaishnaw . 12h</span>
+                            <div>reforms in GST <br>
+🟡 5% for essentials <br>
+🟠 18% for standard goods <br>
+🔴 40% for super luxury & sin items <br>
+
+🧵See what all gets cheaper👇</div>
+                            <div class="posting m-4 ml-0">
+                                <img class="rounded-xl" src="https://pbs.twimg.com/media/Gz_vVo0WwAAMzg8?format=jpg&name=small" alt="">
+                            </div>
+                          <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">1M</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">558K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">100K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">900K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+                <!-- Without Post-done -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/759836172076015617/qiXTvvL5_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Michael Vaughan</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@MichaelVaughan . 11h</span>
+                            <div>South Africa to win the World Cup in 2027 me thinks …</div>
+                           
+                            <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">412K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">230K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">210K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">300K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <!-- Post -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/1833509376528945157/5AeMNn9f_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Narendra Modi</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@narendramodi . 10h</span>
+                            <div>Addressing the press meet with PM Lawrence Wong of Singapore. <span class="text-blue-700 cursor-pointer hover:underline"> @LawrenceWongST <span></span></div>
+                            <div class="posting m-4 ml-0">
+                                <blockquote class="twitter-tweet" data-media-max-width="560">
+                                    <p lang="en" dir="ltr">Addressing the press meet with PM Lawrence Wong of Singapore. <a href="https://twitter.com/LawrenceWongST?ref_src=twsrc%5Etfw">@LawrenceWongST</a> <a href="https://t.co/z86B40nNHD">https://t.co/z86B40nNHD</a></p>&mdash; Narendra Modi (@narendramodi) <a  href="https://twitter.com/narendramodi/status/1963506475705205239?ref_src=twsrc%5Etfw">September 4, 2025</a>
+                                </blockquote>
+                            </div>
+                             <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">1.2M</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">915K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">20K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">1.5M</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+                <!-- Without Post  -->
+                <div class="post border-[0.5px] border-y-gray-700 border-x-0 ">
+                    <div class="flex">
+
+                        <div class="img m-2">
+                            <img class="w-[40px] rounded-full" src="https://pbs.twimg.com/profile_images/759836172076015617/qiXTvvL5_bigger.jpg" alt="">
+                        </div>
+                        <div class="content my-1 w-full">
+                            <span class="font-bold hover:underline cursor-pointer">Kalaippuli S Thanu</span>
+                            <span class="material-symbols-outlined align-middle !text-[20px] text-blue-800">verified</span>
+                            <span class="text-gray-500">@theVcreations . 4h</span>
+                            <div>📢📢🥁🥁💥💥</div>
+                           
+                             <div class="icons flex justify-between mx-3 text-gray-600 mb-2">
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900 group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined pt-1 group-hover:text-[rgb(76_153_213)] ">
+                                            chat_bubble
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(76_153_213)]">553K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group ">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(0_186_124)]">
+                                            repeat
+                                        </span>
+                                    </div>
+                                    <span class="group-hover:text-[rgb(0_186_124)]">20.3K</span>
+                                </div>
+
+
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(249,24,128)]">
+                                            Favorite
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(249,24,128)]">212K</span>
+                                </div>
+                                <div class="icon flex items-center justify-center mr-4 group">
+                                    <div class="flex items-center justify-center group-hover:bg-gray-900  group-hover:rounded-full pr-[2px] pl-[2px]">
+                                        <span class="material-symbols-outlined group-hover:text-[rgb(29,155,240)]">
+                                            bar_chart
+                                        </span> 
+                                    </div>
+                                    <span class="group-hover:text-[rgb(29,155,240)]">50K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+
+        <div class="third hidden lg:block w-full">
+            <div class="search m-3 sticky top-3 ">
+                <input type="text" class="lg:w-[97%] xl:w-[74%] outline-1 rounded-full outline-gray-800 bg-black text-white px-2 py-2" placeholder="Search">
+            </div>
+            <!-- To Be Edited -->
+            <div class="whats m-3 outline-1 outline-gray-800  py-5 rounded-xl space-y-3 lg:w-[93%] xl:w-[70%]">
+                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+                <div class="item p-3  cursor-pointer">
+                    <div class=" text-sm text-slate-500">Entertainment · Trending</div>
+                    <div class="font-bold">#NivinPauly</div>
+                    <div class=" text-sm text-slate-500">40K Posts</div>
+                </div>
+                <div class="item p-3  cursor-pointer">
+                    <div class=" text-sm text-slate-500">Trending in India</div>
+                    <div class="font-bold">#निमंत्रण_संसारको_सम्मानकेसाथ</div>
+                    <div class=" text-sm text-slate-500">130k Posts</div>
+                </div>
+                <div class="item p-3  cursor-pointer">
+                    <div class=" text-sm text-slate-500">Only on X · Trending</div>
+                    <div class="font-bold">#IncreaseBPSCTRE4Vacancy</div>
+                    <div class=" text-sm text-slate-500">11.2k Posts</div>
+                </div>
+              
+               
+                
+            </div>
+            <!-- Edit This -->
+
+             <div class="who  m-3 outline-1 outline-gray-800 xl:w-[70%] w-fit py-5 rounded-xl space-y-3">
+                <h1 class="text-xl font-bold px-3">Who To Follow</h1>
+                <div class="item p-3  space-y-2 cursor-pointer">
+
+                    <div class="flex justify-between ">
+                        <div class="flex items-center gap-3">
+                            <div class="followcontentimg w-11">
+                                <img src="http://pbs.twimg.com/profile_images/1565973835429875712/j8LDCSQW_bigger.jpg" class="rounded-full" alt="">
+                            </div>
+                            <div class="followcontent flex flex-col">
+                                <span class="font-bold text-xl hover:underline">Rajnikanth</span>
+                                <span class="text-base text-gray-500">@rajnikanth</span>
+                            </div>
+                        </div>
+                        <div class="button text-center my-3 ">
+                            <button class="bg-white px-5  py-1 text-black rounded-full cursor-pointer"> Follow </button>
+                        </div>
+                    </div>
+
+
+                    <div class="flex justify-between ">
+                        <div class="flex items-center gap-3">
+                            <div class="followcontentimg w-11">
+                                <img src="https://pbs.twimg.com/profile_images/1395254075285860354/LG45JNi8_bigger.jpg" class="rounded-full" alt="">
+                            </div>
+                            <div class="followcontent flex flex-col">
+                                <span class="font-bold text-xl hover:underline">AajTak</span>
+                                <span class="text-base text-gray-500">@aajtak</span>
+                            </div>
+                        </div>
+                        <div class="button text-center my-3">
+                            <button class="bg-white px-5  py-1 text-black rounded-full cursor-pointer"> Follow </button>
+                        </div>
+                    </div>
+
+
+                    <div class="flex justify-between ">
+                        <div class="flex items-center gap-3">
+                            <div class="followcontentimg w-11">
+                                <img src="https://pbs.twimg.com/profile_images/1618421776794677248/EYJex5NK_bigger.jpg" class="rounded-full" alt="">
+                            </div>
+                            <div class="followcontent flex flex-col">
+                                <span class="font-bold text-xl hover:underline">Press Trust Of India</span>
+                                <span class="text-base text-gray-500">@PTI_News</span>
+                            </div>
+                        </div>
+                        <div class="button text-center my-3 ">
+                            <button class="bg-white px-5  py-1 text-black rounded-full cursor-pointer"> Follow </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-blue-600 px-3 cursor-pointer underline my-5">Show More</div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script async src="https://platform.twitter.com/widgets.js"></script>
+</body>
+</html>
