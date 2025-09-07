@@ -1,17 +1,17 @@
-### X-Twitter
+# X-Twitter
 A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwind CSS. This project focuses on practicing Tailwind utility classes and responsive design, without using any external JavaScript or frameworks.
 
-### 🚀 Features
+# 🚀 Features
  ** Responsive layout similar to Twitter’s home feed **
  ** Center feed section **
  ** Clean dark theme (bg-black text-white) **
  ** Built entirely with Tailwind CSS **
 
-### 🛠️ Tech Stack
+# 🛠️ Tech Stack
   ** HTML5 **
   ** Tailwind CSS **
 
-### 📂 Project Structure
+# 📂 Project Structure
  ```
   ├── index.html         # Main HTML file
   ├── src/
@@ -21,30 +21,30 @@ A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwi
   ├── package.json       # Dependencies
  ```
 
-### 📖 How to Use
- # 1. Clone this repo:
+## 📖 How to Use
+ ### 1. Clone this repo:
   ```
     git clone https://github.com/chandrakant-T/X-Twitter.git
   ```
 
- # 2. Change The Directory
+ ### 2. Change The Directory
   ```
     cd X-Twitter
   ```
 
- # 3. Install Dependencies
+ ### 3. Install Dependencies
   ```
     npm install
   ```
 
-## Optional
+### Optional
  # 4. Use TailWind setup(if you want to edit css,optional)
    ```
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
 
 
- # 5. Run The File
+ ### 5. Run The File
    ```
     run index.html
    ```
