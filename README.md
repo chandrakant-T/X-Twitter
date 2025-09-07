@@ -2,14 +2,14 @@
 A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwind CSS. This project focuses on practicing Tailwind utility classes and responsive design, without using any external JavaScript or frameworks.
 
 # 🚀 Features
- ** Responsive layout similar to Twitter’s home feed **
- ** Center feed section **
- ** Clean dark theme (bg-black text-white) **
- ** Built entirely with Tailwind CSS **
+ 1. Responsive layout similar to Twitter’s home feed
+ 2. Center feed section
+ 3. Clean dark theme (bg-black text-white)
+ 4. Built entirely with Tailwind CSS
 
 # 🛠️ Tech Stack
-  ** HTML5 **
-  ** Tailwind CSS **
+  1. HTML5
+  2. Tailwind CSS
 
 # 📂 Project Structure
  ```
@@ -38,7 +38,7 @@ A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwi
   ```
 
 ### Optional
- # 4. Use TailWind setup(if you want to edit css,optional)
+ ### 4. Use TailWind setup(if you want to edit css,optional)
    ```
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
    ```
@@ -49,7 +49,7 @@ A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwi
     run index.html
    ```
 
-**📜 License
+-**📜 License
 This project is open source and available under the MIT License. 
 **
 
