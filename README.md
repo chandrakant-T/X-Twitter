@@ -21,6 +21,9 @@ A simple clone of the X (formerly Twitter) Home Page UI, built using only Tailwi
   ├── package.json       # Dependencies
  ```
 
+# Live Link
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://x-twitter-rg7c.onrender.com/)
+
 ## 📖 How to Use
  ### 1. Clone this repo:
   ```
